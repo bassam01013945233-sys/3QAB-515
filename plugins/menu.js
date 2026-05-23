@@ -116,7 +116,7 @@ menu.before = async (m, { conn, bot }) => {
 ${cmdsList}
 
 ╭─┈─┈─┈─⟞${cat[3]}⟝─┈─┈─┈─╮
-┃ *⌯︙𝐕𝐈𝐈7 ~ ${bot.config.info.nameBot}*
+┃ *⌯︙3QAB ~ ${bot.config.info.nameBot}*
 ╰─┈─┈─┈─⟞${cat[3]}⟝─┈─┈─┈─╯
 > *رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا*`.trim(),
         contextInfo: context(m.sender, getImg(bot))
@@ -125,5 +125,5 @@ ${cmdsList}
     return true;
 };
 
-menu.command = ['الاوامر', 'القائمة', 'menu', 'اوامر'];
+menu.command = ['عقاب', 'القائمة', 'menu', 'اوامر'];
 export default menu;
