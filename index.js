@@ -10,13 +10,13 @@ const client = new Client({
   fromMe: false, 
   owners: [
   // Owner 1
-    { name: "عقاب", lid: "269277689069781@lid", jid: "972569311531@s.whatsapp.net" },
+    { name: "عقاب", lid: "52429437595728@lid", jid: "201142182793@s.whatsapp.net" },
   // Owner 2
-    { name: "عقاب", lid: "269277689069781@lid", jid: "201142182793@s.whatsapp.net" },
+    { name: "عقاب", lid: "52429437595728@lid", jid: "201142182793@s.whatsapp.net" },
   // Owner 3
-    { name: "3QAB 515🌍🦅", jid: "201142182793@s.whatsapp.net", lid: "269277689069781@lid" },
+    { name: "3QAB 515🌍🦅", jid: "201142182793@s.whatsapp.net", lid: "52429437595728@lid" },
   // Owner 4 
-   { name: "3QAB 515🌍🦅", jid: "201142182793@s.whatsapp.net", lid: "269277689069781@lid" }
+   { name: "3QAB 515🌍🦅", jid: "201142182793@s.whatsapp.net", lid: "52429437595728@lid" }
   ],
   settings: { noWelcome: false },
   commandsPath: './plugins'
@@ -33,17 +33,17 @@ if (!global.db) {
 /* =========== Config ========== */
 const { config } = client;
 config.info = { 
-  nameBot: "3QAB 515🌍🦅〈", 
-  nameChannel: "عقاب ءل غششيم", 
+  nameBot: "Aisa-v1", 
+  nameChannel: "Aisa-v1", 
   idChannel: "120363426553571462@newsletter",
   urls: {
     repo: "https://github.com/deveni0/Pomni-AI",
     api: "https://emam-api.web.id",
-    channel: "https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v"
+    channel: "https://whatsapp.com/channel/0029VbD2pIvFXUuVFTTsek0J"
   },
   copyright: { 
-    pack: 'ڤـ ـ VA ـ ـا', 
-    author: 'VA'
+    pack: 'Aisa-v1', 
+    author: 'Aisa-v1'
   },
   images: [
     "https://i.pinimg.com/originals/11/26/97/11269786cdb625c60213212aa66273a9.png",
