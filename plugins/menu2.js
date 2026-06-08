@@ -32,11 +32,11 @@ const context = (jid, img) => ({
     forwardingScore: 1,
     forwardedNewsletterMessageInfo: {
         newsletterJid: '120363426553571462@newsletter',
-        newsletterName: 'تخص ءلمنحرفين 515',
+        newsletterName: 'Aisa-v1,
         serverMessageId: 0
     },
     externalAdReply: {
-        title: "عقاب ءلغشيم | 𝐁𝐨𝐭 𝐢𝐬 𝐛𝐮𝐢𝐥𝐭 𝐨𝐧 𝐭𝐡𝐞 𝐖𝐒/𝐕𝐈𝐈 𝐟𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤",
+        title: "Aisa-v1 | 𝐁𝐨𝐭 𝐢𝐬 𝐛𝐮𝐢𝐥𝐭 𝐨𝐧 𝐭𝐡𝐞 𝐖𝐒/ 𝐟𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤",
         body: "𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝚋𝚘𝚝 𝚝𝚑𝚊𝚝 𝚒𝚜 𝚎𝚊𝚜𝚢 𝚝𝚘 𝚖𝚘𝚍𝚒𝚏𝚢 𝚊𝚗𝚍 𝚟𝚎𝚛𝚢 𝚏𝚊𝚜𝚝",
         thumbnailUrl: img,
         sourceUrl: '',
@@ -77,19 +77,19 @@ const uptimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).pad
 > *_اختار قسم من القائمة عشان يبعتلك اوامر القسم_*`;
         
         await conn.sendButtonNormal(m.chat, {
-            media: { url: "https://i.pinimg.com/originals/e2/21/20/e221203f319df949ee65585a657501a2.jpg" },
+            media: { url: "https://litter.catbox.moe/c6ikee.jpg" },
             mediaType: 'image',
             caption: menuText,
             buttons: [{
                 name: "single_select",
                 params: {
-                    title: "🍂✨",
+                    title: "🤺🦅",
                     sections: sections
                 }
             }],
             mentions: [m.sender],
             newsletter: {
-                name: 'تخص ءلمنحرفين 515',
+                name: 'Aisa-v1',
                 jid: '120363426553571462@newsletter'
             }
         }, global.reply_status);
@@ -120,7 +120,7 @@ const uptimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).pad
 ${cmdsList}
 
 ╭─┈─┈─┈─⟞${cat[3]}⟝─┈─┈─┈─╮
-┃ *⌯︙𝐕𝐈𝐈7 ~ ${bot?.config?.info?.nameBot || 'عقاب ءلـغـششـيم}*
+┃ *⌯︙Aisa-v1 ~ ${bot?.config?.info?.nameBot || 'عقاب ءلـغـششـيم}*
 ╰─┈─┈─┈─⟞${cat[3]}⟝─┈─┈─┈─╯
 > *رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا*`.trim(), contextInfo: context(m.sender, getImg(bot)) }, { quoted: m });
 }
